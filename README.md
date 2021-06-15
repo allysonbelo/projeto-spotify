@@ -10,3 +10,4 @@ Criando antiga interface do  **spotify** com *bootstrap4*
 * Sessão com Álbum e textos
 * Sessão com Textos e Imagens rotacionadas
 * Rodapé
+* Criação de slide na sessão inicial 
