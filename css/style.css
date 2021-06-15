@@ -75,6 +75,10 @@ nav.navbar-transparente {
     color: black;
 }
 
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+ 
 /*Conteudos*/
 
 .caixa{
@@ -113,6 +117,38 @@ nav.navbar-transparente {
     transform: rotate(30deg);
     
     padding-left: 80px;
+}
+
+/*Rodapé*/
+footer{
+    position: relative;
+    background: black;
+    padding: 50px 0px 20px 0px;
+}
+
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0 5px;
 }
 
 /*Tipografia*/
@@ -159,6 +195,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1 {
         font-size: 4em;
+        font-size: 1em;
     }
 }
 
